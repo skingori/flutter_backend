@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09b88ec8-ff7f-4758-8097-ac0b5265c5b3" name="Default Changelist" comment="" />
+    <list default="true" id="09b88ec8-ff7f-4758-8097-ac0b5265c5b3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/92c44601-8abe-42c1-9553-534c7db3ab85.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f329193a-04c9-4ef3-bc4b-37ae4b709b99.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DBOperations.php" beforeDir="false" afterPath="$PROJECT_DIR$/DBOperations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +18,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gYZF0WKtSVmuxM8EdvURjdAomX" />
   <component name="ProjectViewState">
@@ -38,7 +50,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598293379035</updated>
-      <workItem from="1598293380093" duration="15106000" />
+      <workItem from="1598293380093" duration="16341000" />
+      <workItem from="1598370909181" duration="10000" />
+      <workItem from="1598420206260" duration="12185000" />
     </task>
     <servers />
   </component>
@@ -46,10 +60,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="59" y="205" key="#SQL_Dialects" timestamp="1598352512426">
+    <state x="59" y="205" key="#SQL_Dialects" timestamp="1598429567289">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="59" y="205" key="#SQL_Dialects/0.0.1366.728@0.0.1366.728" timestamp="1598352512426" />
+    <state x="59" y="205" key="#SQL_Dialects/0.0.1366.728@0.0.1366.728" timestamp="1598429567289" />
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598352664244">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -62,5 +76,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="582" y="240" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1366.728@0.0.1366.728" timestamp="1598352624919" />
+    <state x="504" y="135" key="refactoring.ChangeSignatureDialog" timestamp="1598420518760">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="504" y="135" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1598420518760" />
   </component>
 </project>

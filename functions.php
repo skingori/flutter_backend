@@ -13,11 +13,11 @@ public function __construct() {
 }
 
 
-public function registerUser($name, $email, $password) {
+public function registerUser($email, $password) {
 
 	$db = $this -> db;
 
-	if (!empty($name) && !empty($email) && !empty($password)) {
+	if (!empty($email) && !empty($password)) {
 
   		if ($db -> checkUserExist($email)) {
 
@@ -27,7 +27,7 @@ public function registerUser($name, $email, $password) {
 
   		} else {
 
-  			$result = $db -> insertData($name, $email, $password);
+  			$result = $db -> insertData($email, $password);
 
   			if ($result) {
 

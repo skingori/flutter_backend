@@ -17,17 +17,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
   		if($operation == 'register'){
 
-  			if(isset($data -> user ) && !empty($data -> user) && isset($data -> user -> name)
-  				&& isset($data -> user -> email) && isset($data -> user -> password)){
+  			if(isset($data -> user ) && !empty($data -> user)
+                && isset($data -> user -> email) && isset($data -> user -> password)){
 
   				$user = $data -> user;
-  				$name = $user -> name;
   				$email = $user -> email;
   				$password = $user -> password;
 
           if ($fun -> isEmailValid($email)) {
 
-            echo $fun -> registerUser($name, $email, $password);
+            echo $fun -> registerUser($email, $password);
 
           } else {
 
