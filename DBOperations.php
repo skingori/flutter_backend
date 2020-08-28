@@ -51,6 +51,7 @@ class DBOperations
 
         if ($data) {
             $user["email"] = $data->Login_Username;
+            $user["unique_id"] = $data->Login_Rank;
             return $user;
 
         } else {
